@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(214,214,214);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #31485c;
+}
+.container{
+width: 250px;
+height: 400px;
+margin: 40px auto;
+background:#476177; //rgb(214,214,214);
+box-shadow:5px 5px 10px #afa9a9, -5px -5px 10px #9a9595;
+border-radius: 10px;
+}
+.cal-box{
+    width: 200px;
+    margin: 20px auto;
+}
+#display{
+    font-size: 20px;
+    width: 85%;
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0px 20px 0px;
+    background: #C7DEE9;
+    box-shadow: inset 2px 2px 5px #797777, inset -5px -5px 10px #b9b9b9;  //#babecc, #ffffff
+}
+.button {
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #94A2AF;
+    box-shadow: 5px 5px 10px #0e294071, -5px -5px 10px #607384;
+    display: inline-block;
+}
+.button:active{
+    box-shadow: 1px 1px 2px #0e294071, -1px -1px 2px #607384;
+}
+.clear-btn{
+    background: #B93E74;
+    color: #ffffff;
+}
+.math-btn{
+    color: #ffffff;
+    background: #3c5469;
+}
